@@ -13,9 +13,9 @@ const SkillPage = (props) => {
   const enTitle = (
     <>
       <p className="text-gray-800 font-bold text-2xl md:text-4xl xl:text-7xl mb-4">
-        My <span className="text-yellow-200">Skills</span>
+        My <span className="text-white">Skills</span>
       </p>
-      <p className="text-yellow-200  text-lg md:text-xl xl:text-2xl mb-8">
+      <p className="text-white  text-lg md:text-xl xl:text-2xl mb-8">
         All of the programming language or other that I have learn or mastered.
       </p>
     </>
@@ -23,9 +23,9 @@ const SkillPage = (props) => {
   const idTitle = (
     <>
       <p className="text-gray-800 font-bold text-2xl md:text-4xl xl:text-7xl mb-4">
-        <span className="text-yellow-200">Keahlian </span>Saya
+        <span className="text-white">Keahlian </span>Saya
       </p>
-      <p className="text-yellow-200 text-lg md:text-xl xl:text-2xl mb-8">
+      <p className="text-white text-lg md:text-xl xl:text-2xl mb-8">
         Semua bahasa pemrograman yang sedang saya pelajari atau sudah saya
         kuasai
       </p>
@@ -34,7 +34,7 @@ const SkillPage = (props) => {
   return (
     <section className="h-lvh h-fit mb-48 sm:mb-0 md:h-full grid md:grid-cols-2"
     style={{
-    background: "linear-gradient(to bottom, #4682B4,#8A2BE2,#FFB6C1)", 
+      background: "linear-gradient(to right,#A8E063, #56AB2F, #004E1A)", 
   }}>
       <div className="md:h-screen  justify-items-center items-center grid">
         <motion.div 

@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Mitsuki from "../assets/mitsuki.png"
 import {
@@ -20,7 +22,7 @@ export const Home = (props) => {
     <section
   className="md:h-screen md:p-8 grid md:grid-cols-2 top-0"
   style={{
-    background: "linear-gradient(to bottom, #4682B4,#8A2BE2,#FFB6C1)", 
+    background: "linear-gradient(to right, #A8E063, #56AB2F, #004E1A)", 
   }}
 >
 
@@ -32,13 +34,13 @@ export const Home = (props) => {
            whileInView={{opacity:1, y:0}}
            transition={{duration:0.5}}
            className="text-blue-400 font-medium uppercase tracking-widest text-start md:text-start">
-            {lang === "id" && "o"}
+            {lang === "id" && ""}
           </motion.p>
           <motion.p
           initial={{opacity:0, y:150}}
           whileInView={{opacity:1, y:0}}
           transition={{duration:0.75}}
-          className="text-yellow-200 font-bold text-4xl lg:text-7xl mb-4">
+          className="text-white font-bold text-4xl lg:text-7xl mb-4">
             {n}{" "}
             <span className="text-gray-800">
               Juki  <span className=" text-nowrap">Sufail</span>
@@ -48,7 +50,7 @@ export const Home = (props) => {
           initial={{opacity:0, y:200}}
           whileInView={{opacity:1, y:0}}
           transition={{duration:1}}
-          className="text-yellow-200 font-medium text-md lg:text-2xl mb-8">
+          className="text-white font-medium text-md lg:text-2xl mb-8">
             {d}.
           </motion.p>
           {/* <button className="transition shadow-md border-blue-400 bg-gradient-to-r from-sky-400 to-cyan-600 p-2 md:p-4 text-2xl mt-8 rounded-lg font-semibold text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-800 hover:text-white items-center">
@@ -61,7 +63,7 @@ export const Home = (props) => {
             initial={{opacity:0, x:100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1}}
-            src={Mitsuki}
+            src={"https://raw.githubusercontent.com/JukiSufail/png/main/heh.png"}
             style={{ scale: "0.7" }}
           />
         </div>

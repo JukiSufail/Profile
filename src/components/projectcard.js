@@ -6,11 +6,11 @@ export const ProjectCard = (props) => {
     const {desc, image, repo, page, title} = props;
   
     return (
-      <div className='rounded-xl  h-fill shadow-xl min-w-64 md:min-w-96 relative'
+      <div className='rounded-xl  h-fill shadow-xl min-w-64 md:min-w-96 relative'  
       style={{
-    background: "linear-gradient(to bottom, #4682B4,#FFB6C1,#8A2BE2)", 
+        background: "linear-gradient(to bottom,#FFD700, #FF7F32 ,#8B0000)", 
   }}>
-        <div className='text-blue-200 p-4 py-6 text-2xl font-medium rounded-t-xl '>
+        <div className='text-dark p-4 py-6 text-2xl font-medium rounded-t-xl '>
         <div className='absolute h-1/2 w-8 bg-gradient-to-r '></div>
           <div className='absolute h-1/2 w-8 bg-gradient-to-l right-0 me-4 '></div>
           <p className='overflow-y-scroll w-full no-scrollbar px-4 text-nowrap'>{title}</p>
@@ -21,12 +21,12 @@ export const ProjectCard = (props) => {
           <span className='text-white bg-sky-400 p-2 text-xs rounded me-2 bg-opacity-20'>{fw}</span>
           <span className='text-white bg-sky-400 p-2 text-xs rounded me-2 bg-opacity-20'>{pf}</span>
         </div>
-        <p className='p-4 text-blue-300 text-lg  bg-opacity-10 h-48 xs:h-64 md:h-36 overflow-y-scroll'>{desc}</p>
+        <p className='p-4 text-dark text-xl  bg-opacity-10 h-48 xs:h-64 md:h-36 overflow-y-scroll'>{desc}</p>
         <div className='grid grid-cols-2  rounded-b-xl w-full absolute bottom-0'>
-          <a href={page} className='p-4 text-lg text-center font-medium text-blue-200 hover:bg-blue-500 hover:bg-opacity-10 hover:rounded-bl-xl border-slate-600'>
+          <a href={page} className='p-4 text-lg text-center font-medium text-yellow-500'>
             {page?(<PlayArrowRounded />):(<Circle/>)}
           </a>
-          <a href={repo}className='p-4 text-lg text-center font-medium hover:bg-blue-500 hover:bg-opacity-10 text-blue-200 hover:rounded-br-xl'>
+          <a href={repo}className='p-4 text-lg text-center font-medium text-yellow-500'>
             <Book/>
           </a>
         </div>

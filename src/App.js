@@ -94,14 +94,19 @@ function App() {
   const [showHead, setShowHead] = useState(false)
   return (
     <div className="App"
-     style={{ backgroundColor: '#4682B4'}}>
-      <header className='sticky top-0 grid lg:grid-cols-2 z-50 border-b border-blue-300/20 items-center backdrop-blur-md '>
-    <div className='text-start lg:text-start p-4 uppercase tracking-wide h-fit text-md content-center font-medium lg:font-semibold text-yellow-200  '> {/* top left content */}
+      style={{
+        background: "linear-gradient(to right,#A8E063, #56AB2F, #004E1A)",
+      }}>
+      <header className='sticky top-0 grid lg:grid-cols-2 z-50  items-center backdrop-blur-md '
+        style={{
+          background: "linear-gradient(to right,#A8E063, #56AB2F, #004E1A)",
+        }}>
+    <div className='text-start lg:text-start p-4 uppercase tracking-wide h-fit text-md content-center font-medium lg:font-semibold text-white  '> {/* top left content */}
           <div className='hidden lg:block'>
-          <span href='#' onClick={goHome} className={`lg:mx-1 p-2 hover:text-yellow-200 cursor-pointer ${currentPage === 'home' && 'text-black'}`}>{h}</span>
-          <span href='#' onClick={goProject} className={`lg:mx-1 p-2 hover:text-yellow-200 cursor-pointer ${currentPage === 'project' && 'text-black'}`}>{p}</span>
-          <span href='#' onClick={goSkill} className={`lg:mx-1 p-2 hover:text-yellow-200 cursor-pointer ${currentPage === 'skill' && 'text-black'}`}>{s}</span>
-          <span href='#' onClick={goAbout} className={`lg:mx-1 p-2 hover:text-yellow-200 cursor-pointer ${currentPage === 'about' && 'text-black'}`}>{a}</span>
+          <span href='#' onClick={goHome} className={`lg:mx-1 p-2 hover:text-white cursor-pointer ${currentPage === 'home' && 'text-black'}`}>{h}</span>
+          <span href='#' onClick={goProject} className={`lg:mx-1 p-2 hover:text-white cursor-pointer ${currentPage === 'project' && 'text-black'}`}>{p}</span>
+          <span href='#' onClick={goSkill} className={`lg:mx-1 p-2 hover:text-white cursor-pointer ${currentPage === 'skill' && 'text-black'}`}>{s}</span>
+          <span href='#' onClick={goAbout} className={`lg:mx-1 p-2 hover:text-white cursor-pointer ${currentPage === 'about' && 'text-black'}`}>{a}</span>
           </div>
           <div className='block lg:hidden'>
           <div className='flex justify-between'>
@@ -119,9 +124,9 @@ function App() {
     </div>
     <div>
     <div className="text-end p-4 pe-8 hidden lg:block">{/* top right content */}
-    <span className='uppercase bg-yellow-200 align-middle me-4 opacity-75 hover:opacity-100 p-1.5 rounded font-semibold text-black' onClick={switchLang}>{lang}</span>
+    <span className='uppercase bg-white align-middle me-4 opacity-75 hover:opacity-100 p-1.5 rounded font-semibold text-black' onClick={switchLang}>{lang}</span>
           <a href="https://github.com/JukiSufail" className="text-black">
-          <GitHub className="bg-yellow-200 p-1 rounded scale-150 opacity-75 hover:opacity-100"/></a>
+          <GitHub className="bg-white p-1 rounded scale-150 opacity-75 hover:opacity-100"/></a>
           
         </div>
     </div>

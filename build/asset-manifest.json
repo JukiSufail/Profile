@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/profil/static/css/main.b471fc21.css",
+    "main.js": "/profil/static/js/main.363ea863.js",
+    "static/js/453.34bc8f3b.chunk.js": "/profil/static/js/453.34bc8f3b.chunk.js",
+    "static/media/lantern.png": "/profil/static/media/lantern.5f795f52ea2d35d0a409.png",
+    "static/media/mitsuki.png": "/profil/static/media/mitsuki.70fcd34d15f6ba683b74.png",
+    "static/media/mitsuki1.jpg": "/profil/static/media/mitsuki1.25dbead6ff62cee95931.jpg",
+    "index.html": "/profil/index.html",
+    "main.b471fc21.css.map": "/profil/static/css/main.b471fc21.css.map",
+    "main.363ea863.js.map": "/profil/static/js/main.363ea863.js.map",
+    "453.34bc8f3b.chunk.js.map": "/profil/static/js/453.34bc8f3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b471fc21.css",
+    "static/js/main.363ea863.js"
+  ]
+}
